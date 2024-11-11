@@ -117,4 +117,4 @@ Desarrollar una API avanzada para la gestión de inventarios que permita adminis
 
 1. Clonar el repositorio.
    ```bash
-   git clone https://github.com/tu_usuario/inventario-api.git
+   git clone https://github.com/jonnathanrb/GestionInventarioAvanzado.git
