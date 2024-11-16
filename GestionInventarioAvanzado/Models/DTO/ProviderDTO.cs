@@ -1,10 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace GestionInventarioAvanzado.Models
+namespace GestionInventarioAvanzado.Models.DTO
 {
-    public class Provider
+    public class ProviderDTO
     {
-        [Key]
         public int Id { get; set; }
 
         [Required, MaxLength(100)]
@@ -18,10 +17,5 @@ namespace GestionInventarioAvanzado.Models
 
         [MaxLength(25)]
         public string PhoneNumber { get; set; }
-
-        // Auditoría
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
-
     }
 }
